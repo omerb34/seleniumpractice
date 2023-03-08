@@ -55,5 +55,7 @@ public class DemoQAStepDefinition {
     @And("kullanici ok diyerek alerti kapatir")
     public void kullaniciOkDiyerekAlertiKapatir() {
         Driver.getDriver().switchTo().alert().accept();
+        System.out.println("abc");
     }
+
 }
