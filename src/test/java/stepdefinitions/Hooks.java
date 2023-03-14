@@ -37,7 +37,7 @@ public class Hooks {
         if(scenario.isFailed()){
             scenario.attach(screenshot,"image/jpeg","screenshot");
         }
-        Driver.closeDriver();
+     //  Driver.closeDriver();
         //final -> bir değişkenin değerinin değiştirilemez olduğunu belirtir
         //byte[]-> bir byte dizisi tanımlar. Byte dizeleri, sıralı veri depolama ve işleme işlemleri için
         //kullanılır.Verilerin depolanması, iletilmesi ve okunması için kullanılan çeşitli dosya türleri,

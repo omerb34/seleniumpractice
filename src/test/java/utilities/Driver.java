@@ -49,13 +49,13 @@ public class Driver {
         return driver;
     }
 
-    public static void closeDriver() {
-        if (driver != null) { // driver'a deger atanmissa
-            driver.close();
-            driver = null;
-        }
+  public static void closeDriver() {
+      if (driver != null) { // driver'a deger atanmissa
+          driver.close();
+          driver = null;
+      }
 
-    }
+  }
 
     public static void quitDriver() {
         if (driver != null) {
